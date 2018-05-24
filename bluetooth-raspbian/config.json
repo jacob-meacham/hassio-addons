@@ -1,9 +1,9 @@
 {
   "name": "Bluetooth Raspbian",
   "version": "1.1",
-  "slug": "bluetooth_raspbian",
+  "slug": "bluetooth-raspbian",
   "description": "Punch Bluetooth for Broadcom 43xx chip support through",
-  "url": "https://github.com/jacob-meacham/hassio-addons/bluetooth_raspbian",
+  "url": "https://github.com/jacob-meacham/hassio-addons/bluetooth-raspbian",
   "startup": "initialize",
   "boot": "auto",
   "host_network": "true",
@@ -11,5 +11,5 @@
   "devices": ["/dev/ttyAMA0:/dev/ttyAMA0:rwm"],
   "options": {},
   "schema": {},
-  "image": "homeassistant/{arch}-addon-bluetooth_raspbian"
+  "image": "jacob-meacham/{arch}-addon-bluetooth-raspbian"
 }
